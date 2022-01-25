@@ -12,7 +12,7 @@ print(len(a[a > 0]))
 
 # 3
 # How many even positive numbers are there? 3
-print(len(a[np.where((a > 0) & (a % 2 == 0))]))
+print(len(a[(a > 0) & (a % 2 == 0)]))
 
 # 4
 # If you were to add 3 to each data point, how many positive numbers would there be? 10
